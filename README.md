@@ -68,4 +68,44 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
 # Quiz-Master-Millionaire-Challenge
+
+A fun and interactive quiz game built with React, CSS, and HTML. Test your knowledge by answering 15 challenging questions and climb your way to become a virtual millionaire!
+
+## Features
+
+- **15 Unique Questions**: Answer a series of thought-provoking multiple-choice questions.
+- **Progressive Rewards**: Earn virtual money with every correct answer.
+- **Game Over on Wrong Answer**: The game ends if you select the wrong answer, but you keep the money you've earned so far.
+- **React Components**: Modular and reusable components for efficient UI management.
+- **Responsive Design**: Works seamlessly across devices.
+
+## How to Play
+
+1. Start the game by clicking the **Start** button.
+2. Choose the correct answer for each question from the multiple choices provided.
+3. With every correct answer, you earn virtual money and progress to the next question.
+4. If you answer incorrectly, the game ends, and your total earnings are displayed.
+5. Try to answer all 15 questions to become a **Quiz Master**!
+
+## Technologies Used
+
+- **React**: For building the interactive user interface.
+- **CSS**: For styling the app.
+- **HTML**: For structuring the content.
+
+## How to Run the Game
+
+1. Clone this repository or download the project files.
+2. Install the dependencies using `npm install`.
+3. Start the app with `npm start`.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to play the game.
+
+## Planned Improvements
+
+- Add a timer for each question to increase difficulty.
+- Include lifelines such as "50/50" or "Ask the Audience."
+- Save the player's progress and scores using a database or local storage.
+
+Enjoy the **Quiz Master: Millionaire Challenge** and see how far your knowledge can take you!
