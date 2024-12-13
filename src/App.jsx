@@ -2,11 +2,13 @@ import { useEffect, useMemo, useState } from "react";
 import "./app.css"
 import Trivia from "./comp/Trivia";
 import Timer from "./comp/Timer";
+import Start from "./comp/Start";
 
 
 
 
 function App() {
+  const [userName,setUserName] = useState(null);
   const [questionNumber,setQuestionNumber] = useState(1);
   const [stop,setStop]=useState(false);
   const [earnd,setEarnd]=useState("$ 0");
@@ -91,6 +93,8 @@ function App() {
   },[moneyPyramid,questionNumber])
   return (
     <div className="App">
+    {userName ? (
+      <>
       <div className="main">
         {stop ?  <h1 className="endText">You Earnd:{earnd} </h1> : (
           <>
@@ -123,6 +127,11 @@ function App() {
 
         </ul>
       </div>
+
+
+      </>
+    ) : <Start setUserName={setUserName}/>}
+      
     </div>
   );
 }
